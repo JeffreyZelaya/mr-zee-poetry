@@ -24,33 +24,47 @@ export default class Contact extends Component{
 
     render() {
         return(
-            <div>
-                <h1>Contact Mr. Zee</h1>
-                <form onSubmit = {this.handleSubmit}>
-                    <input 
-                        type="text"
-                        name="Name"
-                        placeholder="Name"
-                        onChange={this.handleChange}
-                    />
-                    <input 
-                        type="text"
-                        name="Email"
-                        placeholder="Email"
-                        onChange={this.handleChange}
-                    />
-                    <input 
-                        type="text"
-                        name="Message"
-                        placeholder="Message"
-                        onChange={this.handleChange}
-                    />
-                    <input 
-                        type="submit"
-                        value="Send"
-                    />
-                    
-                </form>
+            <div className= "contact-page-wrapper">
+                <div className="form-content-wrapper">
+                    <h1>Contact Mr. Zee</h1>
+                    <div className="form-background">
+                        <form className="contact-form" onSubmit = {this.handleSubmit}>
+                            <div>
+                                <input 
+                                    type="text"
+                                    name="Name"
+                                    placeholder="Name"
+                                    onChange={this.handleChange}
+                                />  
+                            </div>
+
+                            <div>
+                                <input 
+                                    type="text"
+                                    name="Email"
+                                    placeholder="Email"
+                                    onChange={this.handleChange}
+                                />
+                            </div>
+
+                            <div>
+                                <input 
+                                    type="text"
+                                    name="Message"
+                                    placeholder="Message"
+                                    onChange={this.handleChange}
+                                />
+                            </div>
+                            
+                            <div>
+                                <input 
+                                    type="submit"
+                                    value="Send"
+                                />
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         )
     }

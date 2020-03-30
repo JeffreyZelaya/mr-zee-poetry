@@ -5,6 +5,9 @@ const NavigationContainer = () => {
 
     return (
         <div className='nav-wrapper'>
+
+            <div className="logo" />
+
             <div className="nav-link-wrapper">
                 <NavLink exact to="/">
                     Home
