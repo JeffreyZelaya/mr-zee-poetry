@@ -58,8 +58,8 @@ const options = {
 const pages = [
 
 
-  "https://github.com/JeffreyZelaya/mr-zee-poetry/blob/master/magazine/pages/01.jpg?raw=true",
-  "https://github.com/JeffreyZelaya/mr-zee-poetry/blob/master/magazine/pages/02.jpg?raw=true",
+  "https://github.com/JeffreyZelaya/mr-zee-poetry/blob/master/book/pages/bookcover.jpg?raw=true",
+  "https://github.com/JeffreyZelaya/mr-zee-poetry/blob/master/book/pages/3%20Heads.png?raw=true",
   "https://github.com/JeffreyZelaya/mr-zee-poetry/blob/master/magazine/pages/03.jpg?raw=true",
   "https://github.com/JeffreyZelaya/mr-zee-poetry/blob/master/magazine/pages/04.jpg?raw=true",
   "https://github.com/JeffreyZelaya/mr-zee-poetry/blob/master/magazine/pages/05.jpg?raw=true",
