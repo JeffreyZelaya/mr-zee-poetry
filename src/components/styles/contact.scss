@@ -1,7 +1,9 @@
 
 .contact-page-wrapper {
-    background-color: gray;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
     h1{
         color: whitesmoke;
         background-image: url(../images/contact-background.jpg);
@@ -13,25 +15,11 @@
     }
 }
 
-.form-content-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: space-around;
-
-}
-
 .form-background {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     background-image: url(../images/contact-background.jpg);
     box-shadow: 10px 10px 5px rgb(56, 56, 56);
     background-size: cover; 
     border-radius: 25px;  
-    height: 75vh;
-    width: 900px;
 }
 
 
@@ -41,12 +29,40 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center; 
+height: calc(100vh - 84px);
+padding-left: 200px;
+padding-right: 200px;
 }
 
 input {
     background-color:gray;
     width: 100%;
-    padding: 12px 200px;
-    margin: 20px 0;
+    padding: 12px;
+    margin: 10px 0;
     box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px rgb(20, 20, 20);
+    
+}
+::placeholder {
+    color: black;
+}
+
+.Name {
+    padding-right: 200px;
+}
+
+.Email {
+    padding-right: 200px;
+}
+
+.Message{
+    padding-right: 200px;
+    padding-bottom: 200px;
+}
+
+.submit {
+    background-color: purple;
+    padding-right: -500px;
 }

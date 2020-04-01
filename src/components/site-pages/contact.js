@@ -25,12 +25,11 @@ export default class Contact extends Component{
     render() {
         return(
             <div className= "contact-page-wrapper">
-                <div className="form-content-wrapper">
                     <h1>Contact Mr. Zee</h1>
                     <div className="form-background">
                         <form className="contact-form" onSubmit = {this.handleSubmit}>
                             <div>
-                                <input 
+                                <input className = "Name"
                                     type="text"
                                     name="Name"
                                     placeholder="Name"
@@ -39,7 +38,7 @@ export default class Contact extends Component{
                             </div>
 
                             <div>
-                                <input 
+                                <input className="Email"
                                     type="text"
                                     name="Email"
                                     placeholder="Email"
@@ -48,7 +47,7 @@ export default class Contact extends Component{
                             </div>
 
                             <div>
-                                <input 
+                                <input className="Message"
                                     type="text"
                                     name="Message"
                                     placeholder="Message"
@@ -57,14 +56,13 @@ export default class Contact extends Component{
                             </div>
                             
                             <div>
-                                <input 
+                                <input className="submit"
                                     type="submit"
                                     value="Send"
                                 />
                             </div>
                         </form>
                     </div>
-                </div>
             </div>
         )
     }
