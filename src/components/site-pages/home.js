@@ -56,16 +56,17 @@ const options = {
 };
 
 const pages = [
+  "https://github.com/JeffreyZelaya/mr-zee-poetry/blob/master/poetry/Cover.jpg?raw=true",
+  "https://github.com/JeffreyZelaya/mr-zee-poetry/blob/master/poetry/King%20Zaiah.jpg?raw=true",
+  "https://github.com/JeffreyZelaya/mr-zee-poetry/blob/master/poetry/Flushed%20King.jpg?raw=true",
+  "https://github.com/JeffreyZelaya/mr-zee-poetry/blob/master/poetry/Charrred.jpg?raw=true",
   "https://github.com/JeffreyZelaya/mr-zee-poetry/blob/master/poetry/3%20Heads.jpg?raw=true",
   "https://github.com/JeffreyZelaya/mr-zee-poetry/blob/master/poetry/Blister%20Sister.jpg?raw=true",
-  "https://github.com/JeffreyZelaya/mr-zee-poetry/blob/master/poetry/Charrred.jpg?raw=true",
   "https://github.com/JeffreyZelaya/mr-zee-poetry/blob/master/poetry/Dr%20Z.jpg?raw=true",
   "https://github.com/JeffreyZelaya/mr-zee-poetry/blob/master/poetry/Father%E2%80%99s%20Stew.jpg?raw=true",
-  "https://github.com/JeffreyZelaya/mr-zee-poetry/blob/master/poetry/Flushed%20King.jpg?raw=true",
   "https://github.com/JeffreyZelaya/mr-zee-poetry/blob/master/poetry/Kimchi.jpg?raw=true",
-  "https://github.com/JeffreyZelaya/mr-zee-poetry/blob/master/poetry/King%20Zaiah.jpg?raw=true",
   "https://github.com/JeffreyZelaya/mr-zee-poetry/blob/master/poetry/Soft%20&%20Cuddly%20.jpg?raw=true",
-  "https://github.com/JeffreyZelaya/mr-zee-poetry/blob/master/poetry/What%20I%20do.jpg?raw=true",
+  "https://github.com/JeffreyZelaya/mr-zee-poetry/blob/master/poetry/What%20I%20do.jpg?raw=true"
 ];
 
 const Home = () => {
