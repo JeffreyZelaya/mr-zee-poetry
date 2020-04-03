@@ -18,9 +18,9 @@
     
 //     handleSubmit =(e)=> {
 //         e.preventDefault()
-//         this.props.changeName(this.state.name, this.state.email, this.state.message)
-//         this.setState({})
-//     }
+        // this.props.changeName(this.state.name, this.state.email, this.state.message)
+        // this.setState({})
+    // }
 
 //     render() {
 //         return(
