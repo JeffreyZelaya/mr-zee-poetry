@@ -25,11 +25,11 @@
     "turn.js": "^1.0.5"
   },
   "scripts": {
+    "build": "react-scripts build",
     "start": "react-scripts start",
     "server":"nodemon server.js",
     "client":"npm run start --prefix mr-zee-poetry",
     "dev":"concurrently \"npm run server\" \"npm start\""
-
   },
   "eslintConfig": {
     "extends": "react-app"
